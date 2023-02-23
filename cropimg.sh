@@ -1,6 +1,8 @@
 #!/bin/bash
 # NOTE : Quote it else use array to avoid problems #
 
+#crop image from bottom using jpegtopnm from netpbm-progs package
+
 #Нижче приклад
 #jpegtopnm 001.jpg | pnmcut -bottom -60 | pnmtojpeg --quality=90 > 001-result.jpg
 
