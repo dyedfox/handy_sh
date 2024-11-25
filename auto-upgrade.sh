@@ -10,5 +10,7 @@ else
     sleep 5
     sudo dnf upgrade -y
     # Reboot the system
+    echo "Перезавантаження..."
+    sleep 5
     sudo reboot
 fi
